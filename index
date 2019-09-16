@@ -3,7 +3,7 @@
 </head>
 <body>
 	<header>
-		<img src="">
+		<img src="#" />
 		<nav>
 			<a href="#">LIFESTYLE</a>
 			<a href="#">PHOTODIARY</a>
@@ -15,8 +15,28 @@
 		<!--main image-->
 	</section>
 	<article>
-		<!--article-->
+		<span id="#liltext">
+			<!--article theme-->
+		</span>
+		<h1>
+			<!--article header-->
+		</h1>
+		<p>
+			<!--article text-->
+		</p>
+		<span id="#liltext" href="#">
+			<!--"leave a comment"-->
+		</span>
 	</article>
-	
+	<section class="otherposts">
+		<section class="anotherpost" href="#">
+			<img src="#" />
+			<span id="#liltext">
+			</span>
+		</section>
+		<section class="anotherpost"></section>
+		<section class="anotherpost"></section>
+		<section class="anotherpost"></section>
+	</section>
 </body>
 </html>
