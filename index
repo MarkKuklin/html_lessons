@@ -2,5 +2,21 @@
 <head>
 </head>
 <body>
+	<header>
+		<img src="">
+		<nav>
+			<a href="#">LIFESTYLE</a>
+			<a href="#">PHOTODIARY</a>
+			<a href="#">MUSIC</a>
+			<a href="#">TRAVEL</a>
+		</nav>
+	</header>
+	<section class="image">
+		<!--main image-->
+	</section>
+	<article>
+		<!--article-->
+	</article>
+	
 </body>
 </html>
