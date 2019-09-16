@@ -33,6 +33,12 @@
 			<img src="#" />
 			<span id="#liltext">
 			</span>
+			<h1>
+				<!--AP Header-->
+			</h1>
+			<p>
+				<!--AP short article-->
+			</p>
 		</section>
 		<section class="anotherpost"></section>
 		<section class="anotherpost"></section>
