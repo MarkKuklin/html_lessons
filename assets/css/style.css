@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Ubuntu:400,700&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Ubuntu:300,400,700&display=swap');
 
 html, body {
 	margin: 0;
@@ -6,24 +6,40 @@ html, body {
 	
 }
 .cont {
-
-	width: 1200px;
+	margin: 0 auto;
+	width: 1060px;
+}
+header {
+	padding: 70px 0;
 }
 nav {
 	font-family: 'Playfair Display';
-	position: absolute;
-	top: 70px;
-	right: 70px;
+	font-size: 14px;
+	float: right;
+	display: inline-block;
 	word-spacing: 100px;
 }
+h1 {
+	font-family: 'Playfair Display';
+	font-size: 30px;
+}
+p {
+	font-family: 'Playfair Display';
+	font-size: 14px;
+}
 .logo{
-	position: absolute;
+	display: inline-block;
 	top: 70px;
 	left: 70px;
 }
 #subtext{
 	font-family: 'Ubuntu';
+	font-weight: lighter;
 	color: gray;
+}
+.image {
+	width: 100%;
+	height: auto;
 }
 
 @font-face {
