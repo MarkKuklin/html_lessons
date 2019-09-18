@@ -10,6 +10,9 @@ html, body {
 	width: 1060px;
 }
 header {
+	display: flex;
+	flex-wrap: nowrap;
+
 	padding: 70px 0;
 }
 nav {
@@ -19,10 +22,13 @@ nav {
 	display: inline-block;
 	word-spacing: 100px;
 	text-decoration: none;
+	text-align: right;
+	flex-grow: 2;
 }
 h1 {
 	font-family: 'Playfair Display';
 	font-size: 30px;
+	font-weight: normal;
 }
 p {
 	font-family: 'Playfair Display';
@@ -53,6 +59,69 @@ a:active {
 a:hover {
 	background-color: black;
 	color: white;
+}
+article {
+	width: 900px;
+	margin: auto;
+}
+.otherposts {
+	width: 900px;
+	margin: 100px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+.anotherpost {
+	width: 420px;
+}
+h3 {
+	font-weight: normal;
+	font-size: 14px;
+}
+.emailsection {
+	width: 1060px;
+	padding-top: 80px;
+	padding-bottom: 80px;
+	background-color: lightgray;
+	text-align: center;
+}
+.email{
+	border-style: none;
+	background-color: transparent;
+	font-size: 14px;
+	font-family: 'Playfair Display';
+}
+button {
+	border-style: none;
+	background-color: transparent;
+}
+form{
+	padding: 20px;
+	margin: auto;
+	width: 400px;
+	display: flex;
+	justify-content: space-between;
+	border: 2px;
+	border-color: black;
+	border-style: none none solid;
+
+}
+.load {
+	display: block;
+	margin: 0 auto;
+	font-family: 'Playfair Display';
+	font-size: 20px;
+	width: 165px;
+	height: 60px;
+	border: 1px;
+	border-style: solid;
+}
+.footer {
+	width: 100%;
+	position: absolute;
+	bottom: 0;
+	background-color: lightgray;
+	height: 80px;
 }
 
 @font-face {
