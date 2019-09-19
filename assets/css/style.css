@@ -119,9 +119,24 @@ form{
 .footer {
 	width: 100%;
 	position: absolute;
+	display: flex;
+	justify-content: space-around;
 	bottom: -2500;
 	background-color: lightgray;
 	height: 80px;
+}
+.sm {
+	margin: 5px;
+	background-color: transparent;
+}
+.follow {
+	color: gray;
+	width: 200px;
+	display: flex;
+	justify-content: space-between;
+}
+.follow a:hover{
+	background-color: transparent;
 }
 
 @font-face {
@@ -171,4 +186,3 @@ form{
     font-weight: bold;
     font-style: normal;
 }
-
