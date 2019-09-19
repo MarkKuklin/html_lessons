@@ -119,7 +119,7 @@ form{
 .footer {
 	width: 100%;
 	position: absolute;
-	bottom: 0;
+	bottom: -2500;
 	background-color: lightgray;
 	height: 80px;
 }
